@@ -24,6 +24,17 @@
 
   .sidebar_top {
     margin-bottom: 10px;
+
+    .custom {
+      display: flex;
+      color: rgb(50, 50, 61);
+      font-weight: 800;
+      font-size: 13px;
+      gap: 12px;
+      padding: 10px 25px;
+      align-items: center;
+      cursor: pointer;
+    }
   }
   .sidebar_bottom {
     margin-top: 10px;
@@ -52,7 +63,19 @@
         font-size: 12px;
         font-weight: 600;
         border-radius: 9999px;
+        cursor: pointer;
       }
+    }
+
+    .custom {
+      display: flex;
+      color: rgb(50, 50, 61);
+      font-weight: 800;
+      font-size: 13px;
+      gap: 12px;
+      padding: 10px 25px;
+      align-items: center;
+      cursor: pointer;
     }
   }
 }
