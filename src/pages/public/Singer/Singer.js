@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import { apiGetListArtist } from "../../../apis/music";
 import icons from "../../../utils/icons";
 import { Section, SongItem, Artists } from "../../../components";
-import { converNumber } from "../../../utils/fn";
 const cx = classNames.bind(styles);
 const { BsFillPlayFill, AiOutlineUserAdd } = icons;
 const Singer = () => {

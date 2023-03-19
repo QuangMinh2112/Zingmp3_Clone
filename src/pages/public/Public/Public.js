@@ -15,12 +15,12 @@ import { scrollTopHeader } from "../../../store/actions/homeAction";
 const cx = classNames.bind(styles);
 const Public = () => {
   const [isShowSidebarRight, setIsShowSidebarRight] = useState(false);
-  // const { singer, zing, title } = useParams();
 
   const location = useLocation();
   //declare redux
   const dispatch = useDispatch();
   const { isLoading, scrollTop } = useSelector((state) => state.app);
+  const { currentSongId } = useSelector((state) => state.music);
   //handle functional
   const handleScroll = (e) => {
     if (e.target.scrollTop === 0) {
@@ -82,10 +82,12 @@ const Public = () => {
         )}
       </div>
       <div className={cx("play_song")}>
-        <PlaySong
-          setIsShowSidebarRight={setIsShowSidebarRight}
-          isShowSidebarRight={isShowSidebarRight}
-        />
+        {currentSongId && (
+          <PlaySong
+            setIsShowSidebarRight={setIsShowSidebarRight}
+            isShowSidebarRight={isShowSidebarRight}
+          />
+        )}
       </div>
     </div>
   );

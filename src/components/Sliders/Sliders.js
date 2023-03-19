@@ -12,6 +12,8 @@ import {
 import { useNavigate } from "react-router-dom";
 import icons from "../../utils/icons";
 import Button from "../Button/Button";
+import Skeleton from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const cx = classNames.bind(styles);
 const { MdArrowBackIosNew, MdArrowForwardIos } = icons;

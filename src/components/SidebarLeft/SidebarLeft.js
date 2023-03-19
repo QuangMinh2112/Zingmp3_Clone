@@ -74,7 +74,7 @@ const SidebarLeft = () => {
               Nghe nhạc không quảng cáo cùng kho nhạc VIP
             </div>
             <a href="/" className={cx("upgrade_VIP")}>
-              Nâng cấp VIP
+              NÂNG CẤP VIP
             </a>
           </div>
         </div>

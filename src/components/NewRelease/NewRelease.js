@@ -23,7 +23,7 @@ const NewRelease = () => {
   return (
     <div className={cx("container")}>
       <div className={cx("title")}>
-        <h3>{newRelease.title}</h3>
+        <h3>{newRelease?.title}</h3>
         <span>
           TẤT CẢ <BsChevronCompactRight />
         </span>
