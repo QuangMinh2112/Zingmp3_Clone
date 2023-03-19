@@ -36,16 +36,7 @@ const Home = () => {
     playlist,
     womanMusic,
   } = useSelector((state) => state.app);
-  console.log({
-    newSongEveryDay,
-    top100,
-    xone,
-    newMusic,
-    weekChart,
-    singers,
-    playlist,
-    womanMusic,
-  });
+
   return (
     <>
       {top100 && newMusic && weekChart && singers && playlist && womanMusic ? (

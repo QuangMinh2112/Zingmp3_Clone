@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./MyMusic.module.scss";
-import classNames from "classnames/bind";
+import styles from "./Hub.module.scss";
 import bgweekchart from "../../../assets/bg-chart.jpg";
+import classNames from "classnames/bind";
 const cx = classNames.bind(styles);
 
-const MyMusic = () => {
+const Hub = () => {
   return (
     <div className={cx("container")}>
       <div className={cx("wrapper_chart")}>
@@ -13,7 +13,7 @@ const MyMusic = () => {
         <div className={cx("alpha1")}></div>
         <div className={cx("chart_title")}>
           <div className={cx("title")}>
-            <h2>Xin lỗi , trang cá nhân không được hỗ trợ !</h2>
+            <h2>Xin lỗi , trang Hub không được hỗ trợ !</h2>
           </div>
         </div>
       </div>
@@ -21,4 +21,4 @@ const MyMusic = () => {
   );
 };
 
-export default MyMusic;
+export default Hub;

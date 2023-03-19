@@ -21,6 +21,8 @@ import {
   Follow,
   Radio,
   ArtistOA,
+  Hub,
+  MV,
 } from "./pages/public";
 import { getHome, setCurrentWidth } from "./store/actions/homeAction";
 import path from "./utils/path";
@@ -71,6 +73,8 @@ function App() {
           <Route path={path.NEW_MUSIC} element={<NewMusic />} />
           <Route path={path.RADIO} element={<Radio />} />
           <Route path={path.FOLLOW} element={<Follow />} />
+          <Route path={path.HUB} element={<Hub />} />
+          <Route path={path.MV} element={<MV />} />
 
           <Route
             path={path.WEE_RANK_TITLE_ID}

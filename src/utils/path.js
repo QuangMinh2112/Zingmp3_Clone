@@ -10,6 +10,8 @@ const path = {
   MY_MUSIC: "mymusic",
   FOLLOW: "follow",
   RADIO: "radio",
+  MV: "mv",
+  HUB: "hub",
   ZING_CHART: "zing-chart",
   SEARCH: "tim-kiem",
   SEARCH_ALL: "tat-ca",

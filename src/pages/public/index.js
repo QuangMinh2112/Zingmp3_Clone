@@ -14,3 +14,5 @@ export { default as NewMusic } from "./NewMusic/NewMusic";
 export { default as Follow } from "./Follow/Follow";
 export { default as Radio } from "./Radio/Radio";
 export { default as ArtistOA } from "./ArtistOA/ArtistOA";
+export { default as MV } from "./MV/MV";
+export { default as Hub } from "./Hub/Hub";
