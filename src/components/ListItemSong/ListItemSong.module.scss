@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    background-color: hsla(0, 0%, 100%, 0.3);
+    border-radius: 5px;
+  }
+}
+.info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+
+  img {
+    width: 40px;
+    height: 40;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+
+  .info_media {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.album {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.date_time {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  opacity: 0.7;
+}
+.num_order {
+  font-size: 32px;
+  color: rgba(74, 144, 226, 0);
+  opacity: 1;
+  font-weight: 900;
+  width: 15%;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blue_number {
+  -webkit-text-stroke: 1px #4a90e2;
+}
+.green_number {
+  -webkit-text-stroke: 1px #50e3c2;
+}
+.orange_number {
+  -webkit-text-stroke: 1px #e35050;
+}
+.default_color_number {
+  -webkit-text-stroke: 1px #32323d;
+}

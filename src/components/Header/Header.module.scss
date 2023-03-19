@@ -1,0 +1,20 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_left {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
+}
+.header_icons {
+  display: flex;
+  color: #b7c0c2;
+  gap: 18px;
+}
+.search {
+  width: 60%;
+}

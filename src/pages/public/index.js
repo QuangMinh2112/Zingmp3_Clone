@@ -1,0 +1,16 @@
+export { default as Home } from "./Home/Home";
+export { default as Public } from "./Public/Public";
+export { default as Login } from "./Login/Login";
+export { default as Album } from "./Album/Album";
+export { default as ZingChart } from "./ZingChart/ZingChart";
+export { default as SearchSong } from "./SearchSong/SearchSong";
+export { default as Search } from "./Search/Search";
+export { default as SearchAllSong } from "./SearchAllSong/SearchAllSong";
+export { default as SearchPlaylist } from "./SearchPlaylist/SearchPlaylist";
+export { default as Singer } from "./Singer/Singer";
+export { default as MyMusic } from "./MyMusic/MyMusic";
+export { default as Top100 } from "./Top100/Top100";
+export { default as NewMusic } from "./NewMusic/NewMusic";
+export { default as Follow } from "./Follow/Follow";
+export { default as Radio } from "./Radio/Radio";
+export { default as ArtistOA } from "./ArtistOA/ArtistOA";

@@ -1,0 +1,31 @@
+.btn_back {
+  position: absolute;
+  left: 70px;
+  z-index: 50;
+  color: var(--white-color);
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  background-color: hsla(0, 0%, 100%, 0.15);
+  box-shadow: 0 2px 4px 0 rgb(226 102 102 / 15%);
+  cursor: pointer;
+}
+
+.btn_next {
+  position: absolute;
+  right: 70px;
+  z-index: 50;
+  color: var(--white-color);
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  border: none;
+  background-color: hsla(0, 0%, 100%, 0.15);
+  box-shadow: 0 2px 4px 0 rgb(226 102 102 / 15%);
+  cursor: pointer;
+}
+.dbn {
+  display: none;
+}

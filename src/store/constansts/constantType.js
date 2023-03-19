@@ -1,0 +1,20 @@
+const constantsType = {
+  GET_BANNERS: "GET_BANNERS",
+  SET_CURRENT_SONG_ID: "SET_CURRENT_SONG_ID",
+  SET_CUR_SONG_DATA: "SET_CUR_SONG_DATA",
+  SET_CUR_ALBUM_ID: "SET_CUR_ALBUM_ID",
+  SET_RECENT_SONG: "SET_RECENT_SONG",
+  LOADING: "LOADING",
+  //music
+  PLAY: "PLAY",
+  SET_ALBUMS: "SET_ALBUMS",
+  PLAY_LIST: "PLAY_LIST",
+  //search
+  SEARCH: "SEARCH",
+  SCROLL_TOP: "SCROLL_TOP",
+
+  //responsive
+  CURRENT_WIDTH: "CURRENT_WIDTH",
+};
+
+export default constantsType;

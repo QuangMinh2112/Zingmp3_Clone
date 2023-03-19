@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+
+    padding: 8px 16px;
+    border-top-right-radius: 25px 25px;
+    border-bottom-right-radius: 25px 25px;
+  }
+
+  .search_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-left: 16px;
+
+    border-top-left-radius: 25px 25px;
+    border-bottom-left-radius: 25px 25px;
+  }
+  .clearSeach_value {
+    position: absolute;
+    right: 16px;
+    display: flex;
+    cursor: pointer;
+  }
+}
+//add class active
+.bg_input_search {
+  background-color: #dae2e2;
+  color: gray;
+}
+.bg_input_search_artists {
+  background-color: hsla(0, 0%, 100%, 0.1);
+  color: var(--white-color);
+
+  &::-webkit-input-placeholder {
+    /* Edge */
+    color: var(--white-color);
+  }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer */
+    color: var(--white-color);
+  }
+
+  &::placeholder {
+    color: var(--white-color);
+  }
+}

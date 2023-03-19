@@ -1,0 +1,35 @@
+.container {
+  padding: 20px 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+
+  h3 {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  span {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    gap: 4px;
+  }
+  .see_all {
+    color: var(--text-gray);
+  }
+}
+
+.list_item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.pd_0 {
+  padding: 0;
+}

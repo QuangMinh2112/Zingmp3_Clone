@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-size: 16px;
+  font-family: var(--font-family, --font-roboto);
+}
+
+ol,
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+:root {
+  --font-family: "Inter", sans-serif !important;
+  --font-roboto: "Roboto", sans-serif;
+  --primary: #fd3d57;
+  --white-color: #ffff;
+  --blue-color: #0707f5;
+  --black-color: #000;
+  --border-color: #e9e4e4;
+  --purple-color: #8d22c3;
+  --green-color: #0e8080;
+  --bg-overlay: rgba(0, 0, 0, 0.3);
+  --text-gray: #696969;
+  --text-gray-matte: #a6a6a6;
+  --layout-bg: #ced9d9;
+  --sidebar-bg: hsla(0, 0%, 100%, 0.3);
+}

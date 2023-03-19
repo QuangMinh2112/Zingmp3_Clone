@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  padding: 0 59px 0 59px;
+  display: flex;
+  gap: 60px;
+  flex-direction: column;
+}
+.list_item {
+  display: flex;
+  gap: 28px;
+}

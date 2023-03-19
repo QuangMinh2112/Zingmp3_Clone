@@ -1,0 +1,28 @@
+.container {
+  padding: 20px 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  width: 120px;
+  height: 68px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+
+  img {
+    max-width: 90%;
+    max-height: 80%;
+    width: auto;
+  }
+}
