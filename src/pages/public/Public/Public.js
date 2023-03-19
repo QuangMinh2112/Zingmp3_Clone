@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Public.module.scss";
 import classNames from "classnames/bind";
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet, useLocation, useParams } from "react-router-dom";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import { Loading } from "../../../components/Library/Audio";
 import { useDispatch, useSelector } from "react-redux";
@@ -17,6 +17,8 @@ const Public = () => {
   const [isShowSidebarRight, setIsShowSidebarRight] = useState(false);
 
   const location = useLocation();
+  const params = useParams();
+  console.log(params);
   //declare redux
   const dispatch = useDispatch();
   const { isLoading, scrollTop } = useSelector((state) => state.app);
@@ -49,6 +51,7 @@ const Public = () => {
               `${
                 location?.pathname === "/" ||
                 location.pathname.split("/")[1] === "album" ||
+                location.pathname.split("/")[1] === "playlist" ||
                 location.pathname === "/tim-kiem/tat-ca" ||
                 location.pathname === "/tim-kiem/bai-hat" ||
                 location.pathname === "/tim-kiem/playlist" ||
