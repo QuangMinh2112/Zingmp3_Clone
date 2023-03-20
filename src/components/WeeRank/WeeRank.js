@@ -20,10 +20,8 @@ const activeStyle = {
   borderBottom: "3px solid #0e8080",
 };
 const WeeRank = ({ weekChart }) => {
-  console.log(weekChart);
   const { id } = useParams();
   useEffect(() => {}, [id]);
-  console.log(weekChart?.find((item) => item?.link?.includes(id))?.items);
   return (
     <div className={cx("container")}>
       <div className={cx("wrapper_chart")}>

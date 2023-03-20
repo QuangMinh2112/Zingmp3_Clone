@@ -12,7 +12,6 @@ const cx = classNames.bind(styles);
 const { BsChevronCompactRight } = icons;
 const SearchAllSong = () => {
   const { searchData } = useSelector((state) => state.music);
-  console.log(searchData);
   return (
     <div className={cx("container")}>
       <div className={cx("search_info")}>
