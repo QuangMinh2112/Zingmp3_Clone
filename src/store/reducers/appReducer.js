@@ -38,7 +38,6 @@ const appReducer = (state = initialState, action) => {
         newMusic:
           {
             ...action.homeData?.find((item) => item.sectionId === "hAlbum"),
-            title: "Nhạc mới",
           } || null,
         newRelease:
           action.homeData?.find((item) => item.sectionType === "new-release") ||

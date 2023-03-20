@@ -24,6 +24,9 @@ code {
   right: -10px !important;
   top: 34% !important;
 }
+.db {
+  display: block;
+}
 .scale_up_images {
   -webkit-animation: scale_up_images 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;

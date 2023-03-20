@@ -18,7 +18,6 @@ const Public = () => {
 
   const location = useLocation();
   const params = useParams();
-  console.log(params);
   //declare redux
   const dispatch = useDispatch();
   const { isLoading, scrollTop } = useSelector((state) => state.app);

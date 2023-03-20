@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  position: relative;
 }
 .wrapper {
   position: relative;
@@ -90,6 +91,7 @@
   button {
     border: none;
     border-radius: 15px;
+    outline: none;
     background-color: var(--green-color);
     padding: 6px 19px;
     display: flex;
@@ -177,13 +179,14 @@
   }
 }
 .list_songs {
-  width: 65%;
+  width: 100%;
 }
 
 .box_items {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  justify-content: space-between;
 }
 .song_item {
   width: 90%;
@@ -222,9 +225,10 @@
         line-height: 23px;
         margin-bottom: 48px;
 
-        a {
+        span {
           color: var(--green-color);
           font-weight: bold;
+          cursor: pointer;
         }
       }
     }
@@ -240,6 +244,34 @@
     color: var(--black-color);
   }
 }
+.modal {
+  width: 480px;
+  height: 500px;
+  position: absolute;
+  top: 80%;
+  right: 50%;
+  left: 30%;
+  bottom: 0;
+  background: #dde4e4;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.loading {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #dde4e4;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 1024px) {
   .song_item {
     width: 45%;
