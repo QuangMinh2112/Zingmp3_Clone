@@ -12,7 +12,6 @@ const { BsTrash } = icons;
 const SidebarRight = () => {
   const [isActive, setIsActive] = useState(false);
   const [playlist, setPlaylist] = useState([]);
-
   const {
     currentSongData,
     currentSongId,
@@ -20,6 +19,7 @@ const SidebarRight = () => {
     isPlaying,
     recentSongs,
   } = useSelector((state) => state.music);
+
   const fetchDetailsPlaylist = async () => {
     const res = await apiGetDetailPlaylist(currentAlbumId);
     if (res?.data?.err === 0) {
@@ -29,6 +29,7 @@ const SidebarRight = () => {
   useEffect(() => {
     currentAlbumId && fetchDetailsPlaylist();
   }, []);
+
   useEffect(() => {
     if (currentAlbumId && isPlaying) {
       fetchDetailsPlaylist();

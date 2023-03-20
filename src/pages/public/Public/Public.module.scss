@@ -57,6 +57,7 @@
   width: 329px;
   height: 100vh;
   flex: none;
+  z-index: 51;
   background: var(--layout-bg);
 }
 .play_song {
@@ -66,7 +67,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 50;
+  z-index: 55;
 }
 
 //add class active

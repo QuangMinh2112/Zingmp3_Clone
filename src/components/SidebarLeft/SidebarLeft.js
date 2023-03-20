@@ -58,7 +58,7 @@ const SidebarLeft = () => {
             <span>
               <BsPlayCircle size={17} />
             </span>
-            <span>Cá Nhân</span>
+            <span className={cx("title")}>Cá Nhân</span>
           </span>
           {sidebarMenu.map((item) => (
             <NavLink
@@ -76,13 +76,13 @@ const SidebarLeft = () => {
             <span>
               <FaBroadcastTower size={17} />
             </span>
-            <span>Radio</span>
+            <span className={cx("title")}>Radio</span>
           </span>
           <span className={cx("custom")} onClick={handleNotification}>
             <span>
               <MdOutlineFeed size={17} />
             </span>
-            <span>Theo dõi</span>
+            <span className={cx("title")}>Theo dõi</span>
           </span>
         </div>
         <div className={cx("sidebar_divide")}></div>
@@ -103,13 +103,13 @@ const SidebarLeft = () => {
             <span>
               <HiOutlineViewGridAdd size={17} />
             </span>
-            <span>Thể loại</span>
+            <span className={cx("title")}>Thể loại</span>
           </span>
           <span className={cx("custom")} onClick={handleNotification}>
             <span>
               <MdMusicVideo size={17} />
             </span>
-            <span>MV</span>
+            <span className={cx("title")}>MV</span>
           </span>
           <div className={cx("vip_banner_sidebar")}>
             <div className={cx("text")}>
