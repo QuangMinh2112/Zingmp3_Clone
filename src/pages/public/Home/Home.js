@@ -36,18 +36,18 @@ const Home = () => {
     playlist,
     womanMusic,
   } = useSelector((state) => state.app);
-
+  console.log(newMusic);
   return (
     <>
-      {top100 && newMusic && weekChart && singers && playlist && womanMusic ? (
+      {newMusic && playlist && top100 && weekChart && womanMusic ? (
         <div className={cx("container")}>
           <Sliders />
           <Section data={womanMusic} />
           {/* <Section data={friday} /> */}
           <Section data={playlist} />
           <NewRelease />
-          <Section data={xone} />
-          <Section data={newSongEveryDay} />
+          {xone && <Section data={xone} />}
+          {newSongEveryDay && <Section data={newSongEveryDay} />}
           <ChartSection />
           <div className={cx("weeChart")}>
             {weekChart?.map((item) => (

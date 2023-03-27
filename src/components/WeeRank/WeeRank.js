@@ -59,6 +59,7 @@ const WeeRank = ({ weekChart }) => {
             data={weekChart?.find((item) => item?.link?.includes(id))?.items}
             number={100}
             isHideAlbum={false}
+            isHideBtn
           />
         </div>
       </div>

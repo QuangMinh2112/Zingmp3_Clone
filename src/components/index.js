@@ -14,7 +14,6 @@ export { default as SectionItem } from "./SectionItem/SectionItem";
 export { default as ChartSection } from "./ChartSection/ChartSection";
 export { default as Artists } from "./Artists/Artists";
 export { default as Singers } from "./Singers/Singers";
-export { default as RankWeek } from "./RankWeek/RankWeek";
 export { default as RankList } from "./RankList/RankList";
 export { default as Button } from "./Button/Button";
 export { default as Advertisement } from "./Advertisement/Advertisement";
